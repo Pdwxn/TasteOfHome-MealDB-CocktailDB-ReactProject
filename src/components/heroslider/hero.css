@@ -1,0 +1,25 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.hero-right h2 {
+  font-size: 28px;
+  color: #1e1e1e;
+}
+
+.firstline {
+  font-size: 80px;
+  color: #1e1e1e;
+}
+
+.firstline span {
+  color: #29e981;
+}
+
+.punchline-text {
+  font-size: 35px;
+  color: #29e981;
+}
