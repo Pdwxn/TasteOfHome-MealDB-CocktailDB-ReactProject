@@ -1,0 +1,24 @@
+.ftr-container {
+  height: 120px;
+  padding: 15px 80px;
+  background-color: #29e981;
+}
+
+.ftr-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ftr-left img {
+  margin-top: 22px;
+  max-width: 250px;
+  filter: brightness(1000%);
+}
+
+.ftr-right {
+  padding: 0;
+  list-style: none;
+  font-weight: 500;
+}
