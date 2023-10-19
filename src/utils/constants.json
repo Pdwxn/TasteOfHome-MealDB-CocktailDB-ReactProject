@@ -2,5 +2,6 @@
   "API_URL": "https://www.themealdb.com/api/json/v1/1/",
   "SEARCH_BY_NAME": "search.php?s=",
   "SEARCH_BY_ID": "lookup.php?i=",
-  "CATEGORIES": "list.php?c=list"
+  "CATEGORIES": "list.php?c=list",
+  "SEARCH_IMAGE": "https://www.themealdb.com/images/ingredients/"
 }

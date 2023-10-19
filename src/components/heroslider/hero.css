@@ -6,7 +6,7 @@
   margin-bottom: 20px;
 }
 
-.hero-right h2 {
+.hero-left h2 {
   font-size: 28px;
   color: #1e1e1e;
 }
@@ -23,4 +23,100 @@
 .punchline-text {
   font-size: 35px;
   color: #29e981;
+}
+
+.hero-right {
+  height: 500px;
+  position: absolute;
+  left: 58%;
+  padding-left: 50px;
+}
+
+.hero-right > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img-container {
+  height: 50%;
+  width: 75%;
+  overflow: hidden;
+}
+
+.img-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.img-pasta > img {
+  max-width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.img-pasta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.r-pastaMeal > h5 {
+  margin: 10px 0 25px 0;
+  position: relative;
+  left: 1%;
+  color: #141414;
+}
+
+.ri-burgerMeal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 165px;
+  background-color: #f8f8f8;
+  padding: 8px 0px;
+  border-radius: 8px;
+  top: 1%;
+  left: 1%;
+  color: #141414;
+  box-shadow: 10px 12px 29px -14px rgba(0, 0, 0, 0.3);
+}
+
+.hero-right > .r-burgerMeal > h5 {
+  font-size: 12px;
+  margin: 10px 0 5px 0;
+}
+
+.ri-burgerMeal:hover {
+  scale: 1.03;
+}
+
+.ri-chickenMeal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 165px;
+  background-color: #f8f8f8;
+  padding: 8px 0px;
+  border-radius: 8px;
+  top: 64%;
+  left: 75%;
+  color: #141414;
+  box-shadow: 10px 12px 29px -14px rgba(0, 0, 0, 0.3);
+}
+
+.hero-right > .r-chickenMeal > h5 {
+  font-size: 12px;
+  margin: 10px 0 5px 0;
+}
+
+.ri-chickenMeal:hover {
+  scale: 1.03;
 }
