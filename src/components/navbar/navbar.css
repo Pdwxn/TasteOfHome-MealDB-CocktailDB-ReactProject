@@ -24,6 +24,11 @@
   list-style: none;
   gap: 50px;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.nvb-center li {
+  color: #191919;
 }
 
 .nvb-right {

@@ -8,15 +8,15 @@ function Navbar() {
         <div className="nvb-container">
             <header className="nvb-wrapper">
                 <div className='nvb-left'>
-                    <Link>
+                    <Link to={'/'}>
                         <img src={logo} alt="logo" />
                     </Link>
                 </div>
                 <ul className='nvb-center'>
-                    <li>Recipes</li>
-                    <li>Categories</li>
-                    <li>Cocktails</li>
-                    <li>Contact</li>
+                    <Link to={'/Recipes'} style={{ textDecoration: 'none' }}><li>Recipes</li></Link>
+                    <Link to={'/Categories'} style={{ textDecoration: 'none' }}><li>Categories</li></Link>
+                    <Link to={'/Cocktails'} style={{ textDecoration: 'none' }}><li>Cocktails</li></Link>
+                    <Link to={'/Contact'} style={{ textDecoration: 'none' }}><li>Contact</li></Link>
                 </ul>
                 <div className='nvb-right'>
                     <input type='text' placeholder='Search...'></input>
